@@ -1,5 +1,6 @@
 # ImageProcessing
-Bài viết đề câp đến một số phương pháp xử lý ảnh số cơ bản từ đó giúp mọi người có thể hiểu cơ bản về xử lí ảnh để tiếp cận vào Học Máy(Machine Learning) và Học Sâu(Deep Learning) tốt hơn. Một số  kỹ thuật xử ảnh gồm:
+Bài viết đề câp đến một số phương pháp xử lý ảnh số cơ bản từ đó giúp mọi người có thể hiểu cơ bản về xử lí ảnh để tiếp cận vào Học Máy(Machine Learning) và Học Sâu(Deep Learning) tốt hơn.
+Một số  kỹ thuật xử ảnh gồm:
   1.Cải Thiện Ảnh:
     - Các phép toán điểm ảnh: s=T(r) với s,r lần lượt là ảnh sau và trước khi biến đổi; T là phép biến đổi ảnh
       + Phép đảo ảnh: r = [0,255] => s = 255-r
@@ -31,5 +32,20 @@ Bài viết đề câp đến một số phương pháp xử lý ảnh số cơ 
          @ Làm sắc nét ảnh : làm nổi bật các chi tiết trong ảnh tức làm nổi các biên ảnh
          + Lọc đạo hàm bậc 1 : Robert cross gradient, bộ lọc Sobe;
          + Lọc đạo hàm bậc 2 : Bộ lọc Laplacian     
-  2.Khôi Phục Ảnh
+  2.Khôi Phục Ảnh :
+    Nhiễu xuất hiện trong quá trình thu nhận ảnh, số hóa và truyền
+    
+    - Nhiễu Gaussian : do mạch điện tử, cảm biến, ánh sáng kém, phân bố xác suất của nhiều tính bằng hàm Gaussian
+    - Nhiễu Xung : Đặc trưng bởi 1 điểmn ảnh có giá trị mức xám khác biệt so với những điểm lân cận
+    - Nhiễu Reyliegh:
+    - Nhiễu Erlang(gammar):
+    - Nhiễu hàm mũ:
+    - Nhiễu đồng nhât(Uniform):
+    
+    Khôi phục ảnh: là thu nhận 1 ảnh càng gần với ảnh gốc thông qua việc bỏ nhiễu
+    Các bộ lọc trong miền không gian:
+    - Lọc trung bình (số học) : làm mịn đơn giản , làm mở ảnh để loại nhiễu
+    - Lọc trung bình (hình học) : làm mịn giống như số học nhưng ít làm mất chi tiết ảnh hơn
+    
+    
   3.Phân Đoạn Ảnh 
