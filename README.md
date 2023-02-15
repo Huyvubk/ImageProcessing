@@ -57,4 +57,15 @@ Một số  kỹ thuật xử ảnh gồm:
     - Bộc lọc trung vị thích nghi : trong quá trình lọc kích thước cửa số kernel thay đổi theo giá trị mức xám của pixel cần lọc
     - Lọc nhiễu cục bộ thích nghi 
   3.Phân Đoạn Ảnh 
+    - Kỹ thuật cắt ngưỡng:
+    + Cắt ngưỡng toàn cục : cắt ngưỡng dựa vào 1 giá trị ngưỡng T cho toàn bộ ảnh
+      * thuật toán tìm ngưỡng toàn cục cơ bản
+      * thuật toán otsu dựa trên histogram ảnh
+    + Cắt ngưỡng đa ngưỡng:
+    + Cắt ngưỡng thích nghi:
+      * Dựa trên vùng ảnh cục bộ
+      * Dựa trên di chuyển trung bình(moving average)
+      - Dựa trên thuộc tính vùng ảnh
+      * thuật toán nở vùng
+      * tách và gộp các vùng ảnh
     
