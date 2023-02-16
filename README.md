@@ -8,14 +8,12 @@ Bài viết đề câp đến một số phương pháp xử lý ảnh số cơ 
 
 
 
-
-
-
-
-
 Một số  kỹ thuật xử ảnh gồm:
+
   1.Cải Thiện Ảnh:
+  
     - Các phép toán điểm ảnh: s=T(r) với s,r lần lượt là ảnh sau và trước khi biến đổi; T là phép biến đổi ảnh
+    
       + Phép đảo ảnh: r = [0,255] => s = 255-r
       + Biến đổi logarit : s = c*log(1+r) với c > 0 là tham số được chọn theo thực nghiệm
       + Biến đổi mũ(Gamma): s = c*(r^^y) với c > 0, y > 0 là 2 tham số được chọn theo thực nghiệm
@@ -67,11 +65,14 @@ Một số  kỹ thuật xử ảnh gồm:
     - Bộc lọc trung vị thích nghi : trong quá trình lọc kích thước cửa số kernel thay đổi theo giá trị mức xám của pixel cần lọc
     - Lọc nhiễu cục bộ thích nghi 
   3.Phân Đoạn Ảnh 
+  
     - Kỹ thuật cắt ngưỡng:
     + Cắt ngưỡng toàn cục : cắt ngưỡng dựa vào 1 giá trị ngưỡng T cho toàn bộ ảnh
       * thuật toán tìm ngưỡng toàn cục cơ bản
       * thuật toán otsu dựa trên histogram ảnh
+      
     + Cắt ngưỡng đa ngưỡng:
+    
     + Cắt ngưỡng thích nghi:
       * Dựa trên vùng ảnh cục bộ
       * Dựa trên di chuyển trung bình(moving average)
