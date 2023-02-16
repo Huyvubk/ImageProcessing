@@ -3,6 +3,16 @@ Bài viết đề câp đến một số phương pháp xử lý ảnh số cơ 
 
 
 
+
+
+
+
+
+
+
+
+
+
 Một số  kỹ thuật xử ảnh gồm:
   1.Cải Thiện Ảnh:
     - Các phép toán điểm ảnh: s=T(r) với s,r lần lượt là ảnh sau và trước khi biến đổi; T là phép biến đổi ảnh
