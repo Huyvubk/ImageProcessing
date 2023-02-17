@@ -43,7 +43,9 @@ Một số  kỹ thuật xử ảnh gồm:
          @ Làm sắc nét ảnh : làm nổi bật các chi tiết trong ảnh tức làm nổi các biên ảnh
          + Lọc đạo hàm bậc 1 : Robert cross gradient, bộ lọc Sobe;
          + Lọc đạo hàm bậc 2 : Bộ lọc Laplacian     
+         
   2.Khôi Phục Ảnh :
+  
     Nhiễu xuất hiện trong quá trình thu nhận ảnh, số hóa và truyền. Một số cách tạo nhiễu ảnh số :   
     - Nhiễu Gaussian : do mạch điện tử, cảm biến, ánh sáng kém, phân bố xác suất của nhiều tính bằng hàm Gaussian
     - Nhiễu Xung : Đặc trưng bởi 1 điểmn ảnh có giá trị mức xám khác biệt so với những điểm lân cận
@@ -64,6 +66,7 @@ Một số  kỹ thuật xử ảnh gồm:
     - Lọc Midpoint: hiệu quả loại bỏ nhiễu Gaussian và nhiễu đồng nhất
     - Bộc lọc trung vị thích nghi : trong quá trình lọc kích thước cửa số kernel thay đổi theo giá trị mức xám của pixel cần lọc
     - Lọc nhiễu cục bộ thích nghi 
+    
   3.Phân Đoạn Ảnh 
   
     - Kỹ thuật cắt ngưỡng:
